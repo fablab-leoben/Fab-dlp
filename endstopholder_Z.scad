@@ -3,12 +3,12 @@
 difference () {
 union (){
 cube ([40,5,20]);
-translate ([-1,7,0])cylinder(r=7,h=20);
+translate ([-1,7,0])cylinder(r=8,h=20);
 translate ([-20,11,0]) cube ([20,3,20]);
 translate ([-20,0,0]) cube ([20,3,20]);
 
 }
-translate ([-1,7,0])cylinder(r=5.2,h=20);
+translate ([-1,7,0])cylinder(r=6.3,h=20);
 translate ([-20,3,0]) cube ([20,8,20]);
 translate ([18,-20,17]) rotate ([-90,0,0])cylinder (r=1.6,h=100,$fn=50);
 translate ([37,-20,17]) rotate ([-90,0,0])cylinder (r=1.6,h=100,$fn=50);
